@@ -13,7 +13,7 @@ Copilot responds to queries in natural language or generates customized code sni
 
 Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly create Data Science Notebooks.
 
-1. Click on the **ContosoSales@lab.LabInstance.Id** workspace from the left navigation pane, click the **Import** dropdown, choose **Notebook**, click **From this computer** to upload a notebook.
+1. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane, click the **Import** dropdown, choose **Notebook**, click **From this computer** to upload a notebook.
 
   ![st32.png](media/st32.png)
 
@@ -21,155 +21,93 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
 
 3. Click on the **Open** button.
 
- ![exercise5_1.3.2 - Copy.png](media/exercise5_1.3.2 - Copy.png)
+  ![exercise5_1.3.2 - Copy.png](media/exercise5_1.3.2 - Copy.png)
 
 4. Wait for the notebook to **upload**.
 
-![exercise5_1.3.3 - Copy.png](media/exercise5_1.3.3 - Copy.png)
+  ![exercise5_1.3.3 - Copy.png](media/exercise5_1.3.3 - Copy.png)
 
-5. Click on the **ContosoSales@lab.LabInstance.Id** workspace from the left navigation pane.
+5. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
 
-![exercise5_1.3.4 - Copy.png](media/exercise5_1.3.4 - Copy.png)
+  ![exercise5_1.3.4 - Copy.png](media/exercise5_1.3.4 - Copy.png)
 
 6. Click on **Filter**, expand **Type** and select **Notebook**.
 
- ![exercise5_1.3.5 - Copy.png](media/exercise5_1.3.5 - Copy.png)
+  ![exercise5_1.3.5 - Copy.png](media/exercise5_1.3.5 - Copy.png)
 
 7. Click on the **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
-![exercise5_1.3.6 - Copy.png](media/exercise5_1.3.6 - Copy.png)
+  ![exercise5_1.3.6 - Copy.png](media/exercise5_1.3.6 - Copy.png)
 
 8. Click on the **three dots (⋯)** next to **Items** under Data items.
 
 9. Select **Remove all sources** from the dropdown menu. 
 
-![st34.png](media/st34.png)
+    ![st34.png](media/st34.png)
 
 10. Click on the **Continue** button.
 
-![st35.png](media/st35.png)
+    ![st35.png](media/st35.png)
 
 11. Click on **Add data items** and select **Existing data sources** from the dropdown menu.
 
-![st36.png](media/st36.png)
+    ![st36.png](media/st36.png)
 
 12. Select the **lakehouse** checkbox and click on the **Add** button.
 
-![st37.png](media/st37.png)
+    ![st37.png](media/st37.png)
 
 13. Click on the **Connect** dropdown button in the toolbar and select **New standard session** to initiate a Spark compute session.
 
-![st38.png](media/st38.png)
+    ![st38.png](media/st38.png)
 
 14. Click on **three dots (ellipsis)** from the ribbon and click on the **Copilot** button.
 
-  ![exercise5_1.6 - Copy.png](media/exercise5_1.6 - Copy.png)
+    ![exercise5_1.6 - Copy.png](media/exercise5_1.6 - Copy.png)
 
 15. Click on the **Get Started** button.
 
-   ![exercise5_1.6copilot.png](media/exercise5_1.6copilot.png)
+    ![exercise5_1.6copilot.png](media/exercise5_1.6copilot.png)
 
 16. Run the **first cell** of the notebook to install the Copilot packages.
 
->**Note:** This may take a while to execute, please wait till this loads completely as seen by the **Play button** becoming visible again.
+    >**Note:** This may take a while to execute, please wait till this loads completely as seen by the **Play button** becoming visible again.
 
-![exercise5_1.7 - Copy.png](media/exercise5_1.7 - Copy.png)
+    ![exercise5_1.7 - Copy.png](media/exercise5_1.7 - Copy.png)
 
 17. Copy and paste the **below prompt** in the textbox.
 
-```
-Please load "customerchurndata" table from the Lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df.
-```
+    ```
+    Please load "customerchurndata" table from the Lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df.
+    ```
 
 18. Click on the **send** button.
 
- ![exercise5_1.8 - Copy.png](media/exercise5_1.8 - Copy.png)
+    ![exercise5_1.8 - Copy.png](media/exercise5_1.8 - Copy.png)
 
 19. Click on the **Copy code** icon.
 
-   ![exercise5_1.8.2 - Copy.png](media/exercise5_1.8.2 - Copy.png)
+    ![exercise5_1.8.2 - Copy.png](media/exercise5_1.8.2 - Copy.png)
 
 20. Hover above the first cell and then click on the **+ Code** icon.
 
->**Note:** The new cell will be created right above the existing cell.
+    >**Note:** The new cell will be created right above the existing cell.
 
-  ![exercise5_1.8.1 - Copy.png](media/exercise5_1.8.1 - Copy.png)
+    ![exercise5_1.8.1 - Copy.png](media/exercise5_1.8.1 - Copy.png)
 
 21. Paste the **copied query** and run the new **cell**.
 
-  ![exercise5_1.9 - Copy.png](media/exercise5_1.9 - Copy.png)
+    ![exercise5_1.9 - Copy.png](media/exercise5_1.9 - Copy.png)
 
->**Note:** Copilot may not respond as expected, please copy and paste the following code  if the code execution fails:
+    >**Note:** Copilot may not respond as expected, please copy and paste the following code  if the code execution fails:
 
-```
-# Load the table into a Spark DataFrame
-spark_df = spark.table('lakehouse.customerchurndata')
+    ```
+    # Load the table into a Spark DataFrame
+    park_df = spark.table('lakehouse.customerchurndata')
  
-# Convert the Spark DataFrame to a pandas DataFrame
-df = spark_df.toPandas()
-```
-
-<!-- 26. Click on a **+ Code** above the first cell of the notebook and **run** the new **cell**.
-
-   ![exercise5_1.8.1 - Copy.png](media/exercise5_1.8.1 - Copy.png)
- -->
-
-
-
-<!-- 25. Paste the following at the **end of your browser URL** and press the **Enter** key. 
-
-```
-&debug.enableCopilot=1&debug.enableChatWidget=1&debug.enableQuickAssist=1
-```
-
-  ![exercise5_1.10 - Copy.png](media/exercise5_1.10 - Copy.png)
-
-26. Click on a **+ Code** above the cell, place your **cursor** in the cell and then click on the **Copilot** button.
-
-   ![exercise5_1.10.1 - Copy.png](media/exercise5_1.10.1 - Copy.png)
-
-27. Enter the below prompt in the Copilot textbox: 
-
-```
-Create a pivot table of average with min and max totalamount by storecontract and churn. Then show output of the pivot table.
-```
-
-28. Click on the **Send** icon.
-
-  ![exercise5_1.11 - Copy.png](media/exercise5_1.11 - Copy.png)
-
-29.	Click on the **Accept** button.
-
-   ![exercise5_1.12 - Copy.png](media/exercise5_1.12 - Copy.png)
-
-30. Run the cell and observe the output.
-
-   !![exercise5_1.12.1 - Copy.png](media/exercise5_1.12.1 - Copy.png)
-
-31.	Introduce an error in the same cell by **removing a character** from the end in the code.
-
-32.	Run the **code cell** with the error.
-
-![exercise5_1.14.1.error - Copy.png](media/exercise5_1.14.1.error - Copy.png)
-
-33.	Type in the Copilot textbox +++fix it+++ and then click on the **send** button.
-
-   ![exercise5_1.14.1 - Copy.png](media/exercise5_1.14.1 - Copy.png)
-
-34. Click on the **Accept** button and then Run the cell.
-
-   ![exercise5_1.14.1.fixit - Copy.png](media/exercise5_1.14.1.fixit - Copy.png)
-
-
-35. Add a **new code cell** to the notebook, paste following **query** to the cell and then run the **cell**.
-
-```
-%%chat 
-Create a seaborn scatterplot with Tenure Total Amount and Churn
-```
-
-  ![exercise5_1.13 - Copy.png](media/exercise5_1.13 - Copy.png)
- -->
+    # Convert the Spark DataFrame to a pandas DataFrame
+    df = spark_df.toPandas()
+    ```
 
 With the data prepared with the help of Copilot, Data Scientists like you can explore the data to understand the patterns it contains.
 
@@ -182,25 +120,29 @@ Data agent, a new capability in Fabric, allows Data Analysts like Serena to crea
 
 In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Data agent to create conversational question-and-answer (Q&A) systems. 
 
-1. Click on **Workspaces** and select **ContosoSales@lab.LabInstance.Id**.
+1. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false/>**.
 
-![task-1.3.02 - Copy.png](media/task-1.3.02 - Copy.png)
+    ![task-1.3.02 - Copy.png](media/task-1.3.02 - Copy.png)
 
 2. In the new item window, search for the **data agent** and click **Data agent (preview)**.
 
-  ![st33.png](media/st33.png)
+    ![st33.png](media/st33.png)
 
-3. Enter **Name** +++Contoso-Assistance+++ as the Create Data agent name
+3. Enter **Name** `Contoso-Assistance` as the Create Data agent name
 
-![AIskill3 - Copy.png](media/AIskill3 - Copy.png)
+    ```
+    Contoso-Assistance
+    ```
+
+    ![AIskill3 - Copy.png](media/AIskill3 - Copy.png)
 
 4. Click on **+ Data source** button.
 
-![st39.png](media/st39.png)
+    ![st39.png](media/st39.png)
 
 4. Click on **lakehouse** and then click on the **Confirm** button.
 
-![st40.png](media/st40.png)
+    ![st40.png](media/st40.png)
 
 5. Click on **refresh** and Expand **Tables** then select the following tables.
 
@@ -211,17 +153,21 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
   - factinternetsales
   - factresellersales
 
-![AIskill5 - Copy.png](media/AIskill5 - Copy.png)
+  ![AIskill5 - Copy.png](media/AIskill5 - Copy.png)
 
 6. Click on **Get Started**.
 
-![AIskill6 - Copy.png](media/AIskill6 - Copy.png)
+  ![AIskill6 - Copy.png](media/AIskill6 - Copy.png)
 
-7. Type +++What is the most sold product?+++ in the chatbox and click on the **Send** button.
+7. Type `What is the most sold product?` in the chatbox and click on the **Send** button.
 
-![AIskill7 - Copy.png](media/AIskill7 - Copy.png)
+    ```
+    What is the most sold product?
+    ```
 
->**Note:** This may take some time; please wait until a response is received.
+    ![AIskill7 - Copy.png](media/AIskill7 - Copy.png)
+
+    >**Note:** This may take some time; please wait until a response is received.
 
 8. Data agent answered the question fairly well based on the selected tables.
 
