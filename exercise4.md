@@ -35,7 +35,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 8. Select **Settings** and **Power BI settings** from the 'Resources and extensions' section.
 
-    ![task-new6.1 new.png](media/task-new6.1 new.png)
+    ![task-new6.1 new.png](media/task-new6.1.png)
 
     >**Note:** If the settings icon is not visible, click on the three dots next to Profile icon and select Settings.
 
@@ -43,11 +43,11 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 9. Click on the **Semantic models** tab and select **website_bounce_rate_model** semantic model from the left pane.
 
-    ![task-new6.2 - Copy.png](media/task-new6.2 - Copy.png)
+    ![task-new6.2 - Copy.png](media/task-new6.2.png)
 
 10. Scroll down to **Q&A** section and expand it, then select **Turn on Q&A to ask natural language questions about your data** checkbox, and click on **Apply**.
 
-    ![task-new6.3 - Copy.png](media/task-new6.3 - Copy.png)
+    ![task-new6.3 - Copy.png](media/task-new6.3.png)
 
 11. Click on **website_bounce_rate_model** semantic model from the left pane.
 
@@ -59,7 +59,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 13. Click on the **Copilot** icon and collapse the other panes named Filters, **Visualizations** and **Data**.
 
-    ![task-new6.4 - Copy.png](media/task-new6.4-Copy.png)
+    ![task-new6.4 - Copy.png](media/task-new6.4.png)
 
     >**Note:** Close any pop-up that appears on the screen.
 
@@ -67,7 +67,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 14. Click on **Preview button** to the right side to enable it and click on **Get started**.
 
-    ![task-new6.5 - Copy.png](media/task-new6.5-Copy.png)
+    ![task-new6.5 - Copy.png](media/task-new6.5.png)
 
 You will now see how easy it is for the data analyst to create compelling Power BI reports and get deep insights with literally no hands-on coding!
 	
@@ -82,11 +82,11 @@ You will now see how easy it is for the data analyst to create compelling Power 
     ```
     What's in my data?
     ```
-    ![promptguide2 - Copy.png](media/promptguide2-Copy.png)
+    ![promptguide2.png](media/promptguide2.png)
 
 The first option, 'What's in my data?' provides an overview of the contents of the dataset, identifies and describes what's in it and what the attributes are about. So, there's no need to wait for someone to explain the dataset. This improves the efficiency and volume of report creation.
 
-    ![promptguide2.1 - Copy.png](media/promptguide2.1 - Copy.png)
+![promptguide2.1.png](media/promptguide2.1.png)
 
 19. Click on the Copilot chat box field and enter the prompt below.
 

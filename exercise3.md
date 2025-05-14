@@ -255,7 +255,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
       ```
 21. Click on the **send** icon.
 
-      ![prj-nv11new.png](media/prj-nv11new.png)
+      ![prj-nv11new.png](media/prj-nv11.png)
 
 22. Observe the **response**.
 

@@ -65,7 +65,11 @@ With the acquisition of Litware Inc., Contoso had a lot of data integration and 
 
 Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seamless access to the underlying catalog data through shortcuts. This means that any changes made to the data are instantly reflected in Microsoft Fabric, without the need for data movement or replication. Let’s step into Data Engineer, Eva’s shoes to create a Mirrored Azure Databricks Catalog and analyze the data using T-SQL. 
 
-1. Navigate back to the Microsoft Fabric tab on your browser (https://app.fabric.microsoft.com).
+1. Navigate back to the Microsoft Fabric tab on your browser 
+    
+    ```
+    https://app.fabric.microsoft.com
+    ```
 
 2. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** and select **New item** from menu bar.
 
@@ -81,7 +85,7 @@ Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seam
 
 5. In the URL field enter **<inject key= "databricksurl" enableCopy="true"/>**
 
-6. Now, select **Service principal** from 'Authentication kind' dropdown box, and enter the following details.
+6. Now, select **Service principal** from **Authentication kind** dropdown box, and enter the following details.
 
 - Tenant ID: **<inject key= "catalogTenantID" enableCopy="true"/>**
 - Service principal client ID: **<inject key= "ClientID" enableCopy="true"/>**
