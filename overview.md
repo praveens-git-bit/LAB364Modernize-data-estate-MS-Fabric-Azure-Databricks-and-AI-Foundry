@@ -56,8 +56,6 @@ The team recognizes that the existence of data silos within Contoso's various de
 
 During this lab you will execute some of these steps as a part of this team to reverse these adverse KPI trends. First, you will ingest data from a spectrum of data sources into OneLake for Contoso. Let's get started.
 
- ===
-
 ## Table of Contents
  
 Exercise 1: Data Engineering and Data Factory experience: Data ingestion from a spectrum of analytical data sources into OneLake
