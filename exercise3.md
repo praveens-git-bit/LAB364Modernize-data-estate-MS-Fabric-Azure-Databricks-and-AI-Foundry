@@ -144,17 +144,17 @@ Let's step into Data Engineer, Eva's shoes to see how.
 
    ![th15.png](media/th15.png)
 
-4. Select **Azure OpenAI Service**.
+4. Select **Azure OpenAI**.
 
    ![ai_4.png](media/ai_4.png)
 
-5. You will find an Azure OpenAI resource with gpt-4o and text-embedding-ada-002 model deployment. Create a connection by clicking on the **Add connection** button.
+5. You will find an Azure OpenAI resource with gpt-4,gpt-4o and text-embedding-ada-002 model deployment. Create a connection by clicking on the **Add connection** button.
 
-   ![st07.png](media/st07.png)
+   ![st07.png](media/deopenai.png)
 
 6. Once the **OpenAI services are connected**, click on **Back to select an asset type**.
 
-   ![st08.png](media/st08.png)
+   ![st08.png](media/deopenai2.png)
 
 7. Click on **Azure AI Search**.
 
@@ -167,6 +167,10 @@ Let's step into Data Engineer, Eva's shoes to see how.
 9. Once the **AI Search is connected**, click on the **Close** button.
 
    ![st09.png](media/st09.png)
+
+   > **Note:** If you're unable to see the Close option, try adjusting your screen resolution to 80% or 90%.
+
+   ![st09.png](media/resolution.png)
 
 10. Notice that **Azure Open AI** and **Azure AI Search** connections are established successfully.
 
@@ -194,7 +198,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
    ![32.1.png](media/32.1.png)
 
-5. Copy the path **C:\Lab Assets\01_Main_Lab_Assets\artifacts\aistudio**, paste it in the **File name** textbox and then click on the **Open** button.
+5. Copy the path **C:\LabFiles\artifacts\artifacts\aistudio**, paste it in the **File name** textbox and then click on the **Open** button.
 
    ![32.1.1.png](media/32.1.1.png)
 
