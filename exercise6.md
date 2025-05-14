@@ -120,9 +120,9 @@ Data agent, a new capability in Fabric, allows Data Analysts like Serena to crea
 
 In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Data agent to create conversational question-and-answer (Q&A) systems. 
 
-1. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false/>**.
+1. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false"/>**.
 
-    ![task-1.3.02 - Copy.png](media/task-1.3.02.png)
+     ![task-1.3.02 - Copy.png](media/ws.png)
 
 2. In the new item window, search for the **data agent** and click **Data agent (preview)**.
 
