@@ -48,13 +48,13 @@ In the exercise, we'll explore how Data Engineer, Eva, ingested real-time data f
 
     ![Eventst-name1.png](media/Eventst-name1.png)
 
-8. Click on the **Use external source** button.
+8. Click on the **Connect data sources** button.
 
-    ![eventhouse12 new-1.png](media/eventhouse12 new-1.png)
+    ![](media/eventhouse12u.png)
 
 9. Click on the **Connect** button for **Azure Event Hubs**.
 
-    ![eventhouse12 new1sss.png](media/eventhouse12 new1sss.png)
+    ![](media/eventhouseconnect.png)
 
 10. Under the Connection field, click on **New connection**.
 
