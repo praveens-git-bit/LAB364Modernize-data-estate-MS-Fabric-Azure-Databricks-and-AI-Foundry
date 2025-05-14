@@ -15,29 +15,29 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
 
 1. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane, click the **Import** dropdown, choose **Notebook**, click **From this computer** to upload a notebook.
 
-  ![st32.png](media/st32.png)
+    ![st32.png](media/st32.png)
 
 2. Browse to the fabricnotebooks folder in your VM  by following the path ```C:\Lab Assets\01_Main_Lab_Assets\artifacts\fabricnotebooks```, and then select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
 3. Click on the **Open** button.
 
-  ![exercise5_1.3.2 - Copy.png](media/exercise5_1.3.2 - Copy.png)
+    ![exercise5_1.3.2 - Copy.png](media/exercise5_1.3.2.png)
 
 4. Wait for the notebook to **upload**.
 
-  ![exercise5_1.3.3 - Copy.png](media/exercise5_1.3.3 - Copy.png)
+    ![exercise5_1.3.3 - Copy.png](media/exercise5_1.3.3.png)
 
 5. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
 
-  ![exercise5_1.3.4 - Copy.png](media/exercise5_1.3.4 - Copy.png)
+    ![exercise5_1.3.4 - Copy.png](media/exercise5_1.3.4.png)
 
 6. Click on **Filter**, expand **Type** and select **Notebook**.
 
-  ![exercise5_1.3.5 - Copy.png](media/exercise5_1.3.5 - Copy.png)
+    ![exercise5_1.3.5 - Copy.png](media/exercise5_1.3.5.png)
 
 7. Click on the **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
-  ![exercise5_1.3.6 - Copy.png](media/exercise5_1.3.6 - Copy.png)
+    ![exercise5_1.3.6 - Copy.png](media/exercise5_1.3.6.png)
 
 8. Click on the **three dots (⋯)** next to **Items** under Data items.
 
@@ -63,7 +63,7 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
 
 14. Click on **three dots (ellipsis)** from the ribbon and click on the **Copilot** button.
 
-    ![exercise5_1.6 - Copy.png](media/exercise5_1.6 - Copy.png)
+    ![exercise5_1.6 - Copy.png](media/exercise5_1.6.png)
 
 15. Click on the **Get Started** button.
 
@@ -73,7 +73,7 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
 
     >**Note:** This may take a while to execute, please wait till this loads completely as seen by the **Play button** becoming visible again.
 
-    ![exercise5_1.7 - Copy.png](media/exercise5_1.7 - Copy.png)
+    ![exercise5_1.7 - Copy.png](media/exercise5_1.7.png)
 
 17. Copy and paste the **below prompt** in the textbox.
 
@@ -83,21 +83,21 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
 
 18. Click on the **send** button.
 
-    ![exercise5_1.8 - Copy.png](media/exercise5_1.8 - Copy.png)
+    ![exercise5_1.8 - Copy.png](media/exercise5_1.8.png)
 
 19. Click on the **Copy code** icon.
 
-    ![exercise5_1.8.2 - Copy.png](media/exercise5_1.8.2 - Copy.png)
+    ![exercise5_1.8.2 - Copy.png](media/exercise5_1.8.2.png)
 
 20. Hover above the first cell and then click on the **+ Code** icon.
 
     >**Note:** The new cell will be created right above the existing cell.
 
-    ![exercise5_1.8.1 - Copy.png](media/exercise5_1.8.1 - Copy.png)
+    ![exercise5_1.8.1 - Copy.png](media/exercise5_1.8.1.png)
 
 21. Paste the **copied query** and run the new **cell**.
 
-    ![exercise5_1.9 - Copy.png](media/exercise5_1.9 - Copy.png)
+    ![exercise5_1.9 - Copy.png](media/exercise5_1.9.png)
 
     >**Note:** Copilot may not respond as expected, please copy and paste the following code  if the code execution fails:
 
@@ -122,7 +122,7 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
 
 1. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false/>**.
 
-    ![task-1.3.02 - Copy.png](media/task-1.3.02 - Copy.png)
+    ![task-1.3.02 - Copy.png](media/task-1.3.02.png)
 
 2. In the new item window, search for the **data agent** and click **Data agent (preview)**.
 
@@ -134,7 +134,7 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
     Contoso-Assistance
     ```
 
-    ![AIskill3 - Copy.png](media/AIskill3 - Copy.png)
+    ![AIskill3 - Copy.png](media/AIskill3.png)
 
 4. Click on **+ Data source** button.
 
@@ -153,11 +153,11 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
   - factinternetsales
   - factresellersales
 
-  ![AIskill5 - Copy.png](media/AIskill5 - Copy.png)
+    ![AIskill5 - Copy.png](media/AIskill5.png)
 
 6. Click on **Get Started**.
 
-  ![AIskill6 - Copy.png](media/AIskill6 - Copy.png)
+    ![AIskill6 - Copy.png](media/AIskill6.png)
 
 7. Type `What is the most sold product?` in the chatbox and click on the **Send** button.
 
@@ -165,7 +165,7 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
     What is the most sold product?
     ```
 
-    ![AIskill7 - Copy.png](media/AIskill7 - Copy.png)
+    ![AIskill7 - Copy.png](media/AIskill7.png)
 
     >**Note:** This may take some time; please wait until a response is received.
 
@@ -183,48 +183,56 @@ The primary table to use is FactInternetSales. Only use FactResellerSales if exp
 
 9. Copy the above notes and paste it in **Notes for model** box. 
 
-10. Type +++What is the most sold product?+++ in the chatbox and then click on the **Send** button.  
+10. Type `What is the most sold product?` in the chatbox and then click on the **Send** button.  
+
+    ```
+    What is the most sold product?
+    ```
 
 Asking the question again returns a different answer, **Mountain-200 Black, 46**, as shown in the below screenshot:
 
-![AIskill8 - Copy.png](media/AIskill8 - Copy.png)
+![AIskill8 - Copy.png](media/AIskill8.png)
 
 In addition to instructions, examples serve as another effective way to guide the AI. If you have questions that your Data agent often receives, or questions that require complex joins.
 
 10. In the example SQL queries click on **edit** icon.
 
-![AIskill9 - Copy.png](media/AIskill9 - Copy.png)
+    ![AIskill9 - Copy.png](media/AIskill9.png)
 
 11. Click on **+ Add example** and enter the following question and their respective SQL queries.
 
->**Note:** Please make sure to delete the existing comment (-- Enter SQL query ) before entering the custom query.
+    >**Note:** Please make sure to delete the existing comment (-- Enter SQL query ) before entering the custom query.
 
-|Question| SQL query|
-|--------|----------|
-|+++who are the top 5 customers by total sales amount?+++|+++SELECT TOP 5 CONCAT(dc.FirstName, ' ', dc.LastName) AS CustomerName, SUM(fis.SalesAmount) AS TotalSpent FROM factinternetsales fis JOIN dimcustomer dc ON fis.CustomerKey = dc.CustomerKey GROUP BY CONCAT(dc.FirstName, ' ', dc.LastName) ORDER BY TotalSpent DESC+++|
-|+++what is the total sales amount by year?+++|+++SELECT dd.CalendarYear, SUM(fis.SalesAmount) AS TotalSales FROM factinternetsales fis JOIN dimdate dd ON fis.OrderDateKey = dd.DateKey GROUP BY dd.CalendarYear ORDER BY dd.CalendarYear+++|
+    |Question| SQL query|
+    |--------|----------|
+    |who are the top 5 customers by total sales amount?|SELECT TOP 5 CONCAT(dc.FirstName, ' ', dc.LastName) AS CustomerName, SUM(fis.SalesAmount) AS TotalSpent FROM factinternetsales fis JOIN dimcustomer dc ON fis.CustomerKey = dc.CustomerKey GROUP BY CONCAT(dc.FirstName, ' ', dc.LastName) ORDER BY TotalSpent DESC|
+    |what is the total sales amount by year?|SELECT dd.CalendarYear, SUM(fis.SalesAmount) AS TotalSales FROM factinternetsales fis JOIN dimdate dd ON fis.OrderDateKey = dd.DateKey GROUP BY dd.CalendarYear ORDER BY dd.CalendarYear|
 
->**Note:** This may take some time; please wait until the **SQL query** is copied to the box.
+    >**Note:** This may take some time; please wait until the **SQL query** is copied to the box.
 
 12. Click on **close(X)** button.
 
-![AIskilll-nv.png](media/AIskilll-nv.png)
+    ![AIskilll-nv.png](media/AIskilll-nv.png)
 
-13. Type +++who are the top 5 customers by total sales amount?+++ in the chatbox and click on **Send** button.
+13. Type `who are the top 5 customers by total sales amount?` in the chatbox and click on **Send** button.
 
-![AIskill12 - Copy.png](media/AIskill12 - Copy.png)
+    ```
+    who are the top 5 customers by total sales amount?
+    ```
+
+    ![AIskill12 - Copy.png](media/AIskill12.png)
 
 14. Click on **Publish**.
 
-![AIskill13 - Copy.png](media/AIskill13 - Copy.png)
+    ![AIskill13 - Copy.png](media/AIskill13.png)
 
 15. In the pop-up screen click on **Publish**.
 
-![AIskill14 - Copy.png](media/AIskill14 - Copy.png)
+    ![AIskill14 - Copy.png](media/AIskill14.png)
 
 16. Notice that Data agent is published successfully.
 
-![AIskill15 - Copy.png](media/AIskill15 - Copy.png)
+    ![AIskill15 - Copy.png](media/AIskill15.png)
 
 
 ---
