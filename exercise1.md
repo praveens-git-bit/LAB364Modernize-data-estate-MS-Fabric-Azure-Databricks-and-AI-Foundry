@@ -7,7 +7,7 @@
 
 1. Open a **Microsoft Edge browser** from VM desktop.
 
-2. Click on browser address bar and click **<inject key= "WebAppBrowse" enableCopy="true"/>** to browse app service and press **Enter**.
+2. Click on browser address bar and click **<inject key= "thermostatWebAppUrl" enableCopy="true"/>** to browse app service and press **Enter**.
 
    >**Note**: **Do not click anywhere else on the screen until all of the text has been auto-filled.**
 
