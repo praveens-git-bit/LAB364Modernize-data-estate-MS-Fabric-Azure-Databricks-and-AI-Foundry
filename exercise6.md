@@ -69,33 +69,27 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
 
     ![exercise5_1.6copilot.png](media/exercise5_1.6copilot.png)
 
-16. Run the **first cell** of the notebook to install the Copilot packages.
-
-    >**Note:** This may take a while to execute, please wait till this loads completely as seen by the **Play button** becoming visible again.
-
-    ![exercise5_1.7 - Copy.png](media/exercise5_1.7.png)
-
-17. Copy and paste the **below prompt** in the textbox.
+16. Copy and paste the **below prompt** in the textbox.
 
     ```
     Please load "customerchurndata" table from the Lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df.
     ```
 
-18. Click on the **send** button.
+17. Click on the **send** button.
 
     ![exercise5_1.8 - Copy.png](media/exercise5_1.8.png)
 
-19. Click on the **Copy code** icon.
+18. Click on the **Copy code** icon.
 
     ![exercise5_1.8.2 - Copy.png](media/exercise5_1.8.2.png)
 
-20. Hover above the first cell and then click on the **+ Code** icon.
+19. Hover above the first cell and then click on the **+ Code** icon.
 
     >**Note:** The new cell will be created right above the existing cell.
 
     ![exercise5_1.8.1 - Copy.png](media/exercise5_1.8.1.png)
 
-21. Paste the **copied query** and run the new **cell**.
+20. Paste the **copied query** and run the new **cell**.
 
     ![exercise5_1.9 - Copy.png](media/exercise5_1.9.png)
 
