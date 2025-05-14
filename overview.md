@@ -82,13 +82,8 @@ Exercise 4: Power BI Experience in Fabric
  
  - Task 4.1: Create a Semantic model and generate insights using Copilot for Power BI
 
-Exercise 5: Real-Time Intelligence experience: Explore Streaming data using Copilot for KQL DB
- 
- - Task 5.1: Ingest real-time data into Eventhouse using Eventstream
- - Task 5.2: Analyze and discover patterns, identify anomalies and outliers using Copilot
 
-
-Exercise 6: Explorer Data Science experience in Microsoft Fabric
+Exercise 5: Explorer Data Science experience in Microsoft Fabric
  
- - Task 6.1: Build ML models and experiments using Copilot in Fabric  
- - Task 6.2: Leverage Data agent
+ - Task 5.1: Build ML models and experiments using Copilot in Fabric  
+ - Task 5.2: Leverage Data agent
