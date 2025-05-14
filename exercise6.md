@@ -96,7 +96,7 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
     >**Note:** Copilot may not respond as expected, please copy and paste the following code  if the code execution fails:
 
     ```
-    Load the table into a Spark DataFrame
+    
     park_df = spark.table('lakehouse.customerchurndata')
 
     Convert the Spark DataFrame to a pandas DataFrame df = spark_df.toPandas()
