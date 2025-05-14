@@ -224,7 +224,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
       ![st13.png](media/st13.png)
 
-11. Click on the **acs_index_connection** dropdown and select the **<inject key= "azure_open_ai" enableCopy="true"/>**.
+11. Click on the **acs_index_connection** dropdown and select the **<inject key= "Search_service" enableCopy="true"/>**.
 
 12. Click on the **acs_index_name** dropdown and select the **onelake-index**.
 
