@@ -1,5 +1,5 @@
 
-# Pre-Day 'PREL19': Microsoft Fabric, Azure OpenAI and Azure Databricks DREAM Workshop 
+# LAB364: Modernize you data estate MS Fabric Azure Databricks and AI Foundry
 
 
 **DISCLAIMER**
