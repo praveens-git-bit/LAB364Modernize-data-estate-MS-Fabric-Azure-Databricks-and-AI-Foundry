@@ -153,13 +153,9 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
   - factinternetsales
   - factresellersales
 
-    ![AIskill5 - Copy.png](media/AIskill5.png)
+     ![AIskill5 - Copy.png](media/dau1.png)
 
-6. Click on **Get Started**.
-
-    ![AIskill6 - Copy.png](media/AIskill6.png)
-
-7. Type `What is the most sold product?` in the chatbox and click on the **Send** button.
+6. Type `What is the most sold product?` in the chatbox and click on the **Send** button.
 
     ```
     What is the most sold product?
@@ -169,7 +165,7 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
 
     >**Note:** This may take some time; please wait until a response is received.
 
-8. Data agent answered the question fairly well based on the selected tables.
+7. Data agent answered the question fairly well based on the selected tables.
 
 However, the SQL query needs some improvement, it orders the products by order quantity, when total sales revenue associated with the product is the most important consideration, as shown in the above screenshot.
 
@@ -181,9 +177,9 @@ Whenever I ask about "the most sold" products or items, the metric of interest i
 The primary table to use is FactInternetSales. Only use FactResellerSales if explicitly asked about resales or when asked about total sales.
 ```
 
-9. Copy the above notes and paste it in **Notes for model** box. 
+8. Click on **AI instructions** and Copy the above notes and paste it in **AI instructions** box. 
 
-10. Type `What is the most sold product?` in the chatbox and then click on the **Send** button.  
+9. Type `What is the most sold product?` in the chatbox and then click on the **Send** button.  
 
     ```
     What is the most sold product?
@@ -191,13 +187,13 @@ The primary table to use is FactInternetSales. Only use FactResellerSales if exp
 
 Asking the question again returns a different answer, **Mountain-200 Black, 46**, as shown in the below screenshot:
 
-![AIskill8 - Copy.png](media/AIskill8.png)
+![AIskill8 - Copy.png](media/dau2.png)
 
 In addition to instructions, examples serve as another effective way to guide the AI. If you have questions that your Data agent often receives, or questions that require complex joins.
 
-10. In the example SQL queries click on **edit** icon.
+10. Click on **Example queries** the  In the example SQL queries click on **edit** icon.
 
-    ![AIskill9 - Copy.png](media/AIskill9.png)
+    ![AIskill9 - Copy.png](media/dau3.png)
 
 11. Click on **+ Add example** and enter the following question and their respective SQL queries.
 
@@ -220,7 +216,7 @@ In addition to instructions, examples serve as another effective way to guide th
     who are the top 5 customers by total sales amount?
     ```
 
-    ![AIskill12 - Copy.png](media/AIskill12.png)
+    ![AIskill12 - Copy.png](media/dau5.png)
 
 14. Click on **Publish**.
 
