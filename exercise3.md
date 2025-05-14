@@ -39,7 +39,7 @@ Let's step into the shoes of Eva, the Data Engineer, as she launches Azure AI St
 
    ![th04.png](media/th04.png)
 
-8. Open the following Search service in the VM browser new window: **<inject key= "searchservice" enableCopy="false"/>** 
+8. Open the following Search service in the VM browser new window: **<inject key= "searchservice" enableCopy="true"/>** 
 
 9. In the Search service, click on the **Import data** option to begin setting up the data source.
 
