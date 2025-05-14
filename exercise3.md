@@ -99,8 +99,6 @@ Let's step into the shoes of Eva, the Data Engineer, as she launches Azure AI St
 
    - **subCategory**: Enable **Searchable**.
 
-   - **color**: Enable **Retrievable**, **Filterable** and **Searchable**.
-
    - **Description** : Enable **Retrievable** and **Searchable**.
 
    - **caption**: Enable **Searchable***.
