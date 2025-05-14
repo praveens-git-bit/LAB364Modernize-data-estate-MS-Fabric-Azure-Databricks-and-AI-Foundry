@@ -27,7 +27,7 @@ Let's step into the shoes of Eva, the Data Engineer, as she launches Azure AI St
 
    ![th08.png](media/th08.png)
 
-5. Type **sp-build2025**, select **Contributor** from the permission dropdown, and then click **Add**.
+5. Type **<inject key= "Search_service" enableCopy="true"/>**, select **Contributor** from the permission dropdown, and then click **Add**.
 
    ![th09.png](media/th09.png)
 
