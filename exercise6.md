@@ -13,11 +13,11 @@ Copilot responds to queries in natural language or generates customized code sni
 
 Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly create Data Science Notebooks.
 
-1. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane, click the **Import** dropdown, choose **Notebook**, click **From this computer** to upload a notebook.
+1. From the left navigation pane, click on the **<inject key="WorkspaceName" enableCopy="false"/>** workspace. Then, click the **Import** dropdown and select **Notebook**. Choose From this computer, and on the Import Status page, click **Upload** to upload the notebook.
 
     ![st32.png](media/st32.png)
 
-2. Browse to the fabricnotebooks folder in your VM  by following the path ```C:\Lab Assets\01_Main_Lab_Assets\artifacts\fabricnotebooks```, and then select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+2. Browse to the fabricnotebooks folder in your VM  by following the path ```C:\LabFiles\artifacts\artifacts\fabricnotebooks```, and then select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
 3. Click on the **Open** button.
 
