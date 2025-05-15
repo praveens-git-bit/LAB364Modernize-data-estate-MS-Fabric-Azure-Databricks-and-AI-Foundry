@@ -53,7 +53,7 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
 
     ![st36.png](media/st36.png)
 
-12. Select the **lakehouse** checkbox and click on the **Add** button.
+12. Select the **lakehouse** checkbox and click on the **Connect** button.
 
     ![st37.png](media/st37.png)
 
@@ -61,46 +61,40 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
 
     ![st38.png](media/st38.png)
 
-14. Click on **three dots (ellipsis)** from the ribbon and click on the **Copilot** button.
+14. Click on the **three dots (ellipsis)** from the ribbon, then click on the **Copilot** button. In the Copilot pane, click on the **Get Started** button.
 
     ![exercise5_1.6 - Copy.png](media/exercise5_1.6.png)
 
-15. Click on the **Get Started** button.
-
-    ![exercise5_1.6copilot.png](media/exercise5_1.6copilot.png)
-
-16. Copy and paste the **below prompt** in the textbox.
+15. Copy and paste the **below prompt** in the textbox.
 
     ```
     Please load "customerchurndata" table from the Lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df.
     ```
 
-17. Click on the **send** button.
+16. Click on the **send** button.
 
     ![exercise5_1.8 - Copy.png](media/exercise5_1.8.png)
 
-18. Click on the **Copy code** icon.
+17. Click on the **Copy code** icon.
 
     ![exercise5_1.8.2 - Copy.png](media/exercise5_1.8.2.png)
 
-19. Hover above the first cell and then click on the **+ Code** icon.
+18. Hover above the first cell and then click on the **+ Code** icon.
 
     >**Note:** The new cell will be created right above the existing cell.
 
     ![exercise5_1.8.1 - Copy.png](media/exercise5_1.8.1.png)
 
-20. Paste the **copied query** and run the new **cell**.
+19. Paste the **copied query** and run the new **cell**.
 
     ![exercise5_1.9 - Copy.png](media/exercise5_1.9.png)
 
     >**Note:** Copilot may not respond as expected, please copy and paste the following code  if the code execution fails:
 
     ```
-    
     park_df = spark.table('lakehouse.customerchurndata')
 
     Convert the Spark DataFrame to a pandas DataFrame df = spark_df.toPandas()
-
     ```
 
 With the data prepared with the help of Copilot, Data Scientists like you can explore the data to understand the patterns it contains.
@@ -127,7 +121,6 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
     ```
     Contoso-Assistance
     ```
-
     ![AIskill3 - Copy.png](media/AIskill3.png)
 
 4. Click on **+ Data source** button.

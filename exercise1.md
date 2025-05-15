@@ -148,8 +148,7 @@ Now, let's see how Data Engineer, Eva, got the remaining data into OneLake by cr
 
     ![bl8.png](media/bl8.png)
 
-
-4. Select the **lakehouse** and then click on **Add**
+4. Select the **lakehouse** and then click on **Connect**
 
     ![bl9.png](media/bl9.png)
 

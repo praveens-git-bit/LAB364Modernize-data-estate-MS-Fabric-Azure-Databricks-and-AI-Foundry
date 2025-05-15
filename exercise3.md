@@ -81,7 +81,7 @@ Let's step into the shoes of Eva, the Data Engineer, as she launches Azure AI St
 
       ![th11.png](media/th11.png)
 
-16. For the fields listed, configure the following:
+16. For the fields listed, configure the following: (as shown in the next step)
 
    - **productId**: Enable **Searchable**.
 
@@ -108,11 +108,11 @@ Let's step into the shoes of Eva, the Data Engineer, as she launches Azure AI St
    - **AzureSearch_DocumentKey**: Enable **Retrievable**.
 
 
-18. Once the field settings are configured, click on **Next: Create an indexer** to proceed.
+17. Once the field settings are configured, click on **Next: Create an indexer** to proceed.
 
       ![st05.png](media/st05.png)
 
-19. Enter the name of the indexer as **onelake-indexer** and click on the **Submit** button.
+18. Enter the name of the indexer as **onelake-indexer** and click on the **Submit** button.
 
       ![th13.png](media/th13.png)
 
@@ -214,7 +214,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 8. Click on the **Start compute session** button.
 
-   >**Note:** It will take approximately **2-3 minutes** to start the compute session. Please wait for some time.
+   >**Note:** It will take approximately **5-6 minutes** to start the compute session. Please wait for some time.
 
    ![35_1.png](media/35_1.png)
 
