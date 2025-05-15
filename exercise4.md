@@ -91,14 +91,14 @@ The first option, 'What's in my data?' provides an overview of the contents of t
 19. Click on the Copilot chat box field and enter the prompt below.
 
     ```
-    Create a report that shows website bounce rate by customer generation, customer sentiment and product category, a bar chart with website visitors by customer generation, a donut chart with total number of time products search did not match by device type and an area chart with times products searched by device type.
+    Create a detailed page to analyze the Website Bounce Rate
     ``` 
 
     >**Note:** Wait for the prompt to populate.
 
 20. Click on the **Send** button and wait for the results to load. 
 
-    ![st22.png](media/st22.png)
+    ![st22.png](media/items.png)
 	
     >**Note:** If you see the error message saying, 'Something went wrong.', try refreshing the page and restart the task. Being in a shared environment, the service may be busy at times.
     >- If Copilot needs additional context to understand your query, consider rephrasing the prompt to include more details.
