@@ -87,8 +87,6 @@ Let's step into the shoes of Eva, the Data Engineer, as she launches Azure AI St
 
    - **product**: Enable **Retrievable**, **Filterable** and **Searchable**.
 
-   - **color**: Enable **Retrievable**, **Filterable** and **Searchable**.
-
    - **imageUrl** : Enable **Retrievable**.
 
    - **Price** : Enable **Retrievable** and **Sortable**.
@@ -98,6 +96,8 @@ Let's step into the shoes of Eva, the Data Engineer, as she launches Azure AI St
    - **MasterCategory**: Enable **Searchable**.
 
    - **subCategory**: Enable **Searchable**.
+
+   - **color**: Enable **Retrievable**, **Filterable** and **Searchable**.
 
    - **Description** : Enable **Retrievable** and **Searchable**.
 

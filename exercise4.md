@@ -49,13 +49,18 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     ![task-new6.3 - Copy.png](media/task-new6.3.png)
 
-11. Click on **website_bounce_rate_model** semantic model from the left pane.
+11. Select the ellipsis (three dots) next to the **website_bounce_rate semantic** model.
 
     ![st20.png](media/st20.png)
 
-12. To create a new report using this semantic model, click on **File** dropdown and select **Create a new Report** in the top bar.
+12. To create a new report using this semantic model, click on **Create report**.
  
     ![st21.png](media/st21.png)
+
+14. Click the **Try Free** button in the pop-up window.
+15. In the confirmation dialog, click the **Got it** button to continue.
+
+    ![gotit.png](media/gotit.png)
 
 13. Click on the **Copilot** icon and collapse the other panes named Filters, **Visualizations** and **Data**.
 
