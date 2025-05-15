@@ -41,7 +41,9 @@ Let's see how Copilot for Notebook helps you, as a Data Scientist, quickly creat
 
 8. Click on the **three dots (⋯)** next to **Items** under Data items.
 
-9. Select **Remove all sources** from the dropdown menu. 
+9. Select **Remove all sources** from the dropdown menu.
+
+    >**Note**: If the **Remove all sources** option is not enabled, proceed to Step 11 and set the newly added **Lakehouse** data source as the default.
 
     ![st34.png](media/st34.png)
 

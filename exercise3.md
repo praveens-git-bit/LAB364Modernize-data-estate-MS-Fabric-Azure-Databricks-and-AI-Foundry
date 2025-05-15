@@ -216,6 +216,8 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
    >**Note:** It will take approximately **5-6 minutes** to start the compute session. Please wait for some time.
 
+   >**Note:** If any `session status started: WARNING: pinecone 6.0.2 does not provide the extra async` appears please ignore and continue.
+
    ![35_1.png](media/35_1.png)
 
 9. Scroll down to the **lookup** node in the Prompt flow graph and click on it.
