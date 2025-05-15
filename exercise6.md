@@ -134,7 +134,7 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
 
     ![st39.png](media/st39.png)
 
-4. Click on **lakehouse** and then click on the **Confirm** button.
+4. Click on **lakehouse** and then click on the **Add** button.
 
     ![st40.png](media/st40.png)
 
