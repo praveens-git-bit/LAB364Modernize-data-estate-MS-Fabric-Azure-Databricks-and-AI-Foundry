@@ -146,6 +146,8 @@ In this exercise, you'll step into Data Analyst, Serena's shoes and leverage Dat
 
 6. Type `What is the most sold product?` in the chatbox and click on the **Send** button.
 
+    >**Note:** **Refresh** the browser page if the Data Agent is not responding as expected.
+    
     ```
     What is the most sold product?
     ```
