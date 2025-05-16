@@ -147,3 +147,4 @@ Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seam
     ORDER BY 
         Avg_ROI DESC; 
     ```
+This query gets campaign details from the mirrored database. It shows the average ROI, total profit, total cost, and average cost for each campaign, and sorts the results by highest average ROI.
