@@ -3,18 +3,6 @@
 
 *Before we start executing the steps, we will open a backup Click-by-Click lab using the following hyperlink in a new tab and navigate back to the VM browser:* [Click-by-Click](https://regale.cloud/microsoft/play/3781/modern-analytics-with-microsoft-fabrikam-copilot-and-azure-databricks-dream-lab-#/0/0)
 
-*Now, let's trigger the Simulator App to start streaming data to EventHub (**to be used later in exercise 4**).*
-
-1. Open a **Microsoft Edge browser** from VM desktop.
-
-2. Click on the browser's address bar, then copy and paste the following URL: **<inject key="thermostatWebAppUrl" enableCopy="true"/>**. Press Enter to open the Streaming app Service in your browser.
-
-   >**Note**: **Do not click anywhere else on the screen until all of the text has been auto-filled.**
-
-3. **IMPORTANT!!** PROCEED WITH THE NEXT STEPS 
-    WHILE THIS LOADS.
-
-   ![](media/task-1.3.png)
 
 ### Task 1.1: Create a Microsoft Fabric enabled workspace
 
