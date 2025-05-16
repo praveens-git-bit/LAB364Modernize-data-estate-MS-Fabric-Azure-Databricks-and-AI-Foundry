@@ -49,6 +49,8 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     ![task-new6.3 - Copy.png](media/task-new6.3.png)
 
+    >**Note :** If Turn on Q&A to ask natural language questions about your data checkbox is enabled already,continue with the next step.
+
 11. Select the ellipsis (three dots) next to the **website_bounce_rate semantic** model.
 
     ![st20.png](media/st20.png)
@@ -122,7 +124,7 @@ We'll ask Copilot for suggestions based on the results and data in the report.
     Based on the data in the page, what can be done to improve the bounce rate of millennials?
     ``` 
 	
-    ![task-new13.png](media/task-new13.png)
+  ![task-new13.png](media/img-12.png)
 	
 22. Look at the suggestions Copilot provided. Copilot creates the desired Power BI report and even goes a step further to give powerful insights. Wendy realizes that for the website bounce rate to improve, Contoso needs to transform their mobile website experience for millennials. This helps them reduce their millennial related customer churn too! Now, what if Contoso's leadership team needed a quick summary of this entire report? **Smart Narrative** to the rescue! 
 	
