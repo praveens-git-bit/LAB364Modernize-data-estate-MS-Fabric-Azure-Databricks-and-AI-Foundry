@@ -1,5 +1,5 @@
 
-### Exercise 4: Power BI Experience in Fabric
+### Exercise 4: Power BI Experience in Fabric (Optional)
  With the wide spectrum of data sources and Litware's data in OneLake, it is now time to get some awesome insights and visualizations from this data. Let's dive deep into the experience of the Business Analyst, Wendy, and do just that.
 
 ### Task 4.1: Create a Semantic model and generate insights using Copilot for Power BI
