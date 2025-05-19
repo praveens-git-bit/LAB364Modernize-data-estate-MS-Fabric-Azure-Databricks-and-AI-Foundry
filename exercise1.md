@@ -142,6 +142,23 @@ Now, let's see how Data Engineer, Eva, got the remaining data into OneLake by cr
 5. Once the notebook is created, paste the **below code** in the existing cell and run the cell by clicking on the **Run cell** icon.
 
     ```
+    # Spark path to the folder in Lakehouse
+    file_path = 'Files/litwaredata/'
+
+    # Read all CSV files in the folder
+    df = spark.read.option("header", "true").csv(f"{file_path}*.csv")
+
+    csv_files = ["CustomerChurnData.csv", "dimcustomer.csv", "dimdate.csv", "dimproduct.csv", "dimreseller.csv", "factinternetsales.csv", "factresellersales.csv", "website_bounce_rate.csv"]  # Replace with your actual file names
+
+    for file in csv_files:
+        table_name = file.split('.')[0]
+        path = f"Files/litwaredata/{file}"
+        df = spark.read.option("header", "true").csv(path)
+        df.write.mode("overwrite").format("delta").saveAsTable(table_name)
+    ```
+    >**Note:** Skip running the code below if the previous query executed successfully.
+
+    ```
     import os
     import pandas as pd
  
