@@ -224,6 +224,8 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 10. Click on the edit icon (shaped like a pencil) to modify the value for **mlindex_content** as shown in the below screenshot.
 
+      >**Note:** If you're unable to click the **edit** icon, try refreshing the Azure AI Foundry browser page and try again.
+
       ![st13.png](media/st13.png)
 
 11. Click on the **acs_index_connection** dropdown and select the **<inject key= "Search_service" enableCopy="true"/>**.
