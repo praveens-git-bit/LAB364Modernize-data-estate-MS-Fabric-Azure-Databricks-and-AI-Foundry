@@ -60,9 +60,10 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
     ![st21.png](media/st21.png)
 
 14. Click the **Try Free** button in the pop-up window.
-15. In the confirmation dialog, click the **Got it** button to continue.
 
     ![gotit.png](media/gotit.png)
+
+15. In the confirmation dialog, click the **Got it** button to continue.
 
 13. Click on the **Copilot** icon and collapse the other panes named Filters, **Visualizations** and **Data**.
 
