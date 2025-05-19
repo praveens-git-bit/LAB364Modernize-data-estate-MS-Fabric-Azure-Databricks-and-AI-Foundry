@@ -269,8 +269,10 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 Once the Prompt flow is deployed as an endpoint, It can be consumed in the webapplication. Let's see how the response look like in the webapp.
  
-23. Open a new tab, click on browser address bar, and click **<inject key= "shoppingWebAppUrl" enableCopy="true"/>** and then press Enter.
-
+23. Open a new tab, click on browser address bar, and copy paste the following web app link ``https://app-shopping-copilot-paxnsqg.azurewebsites.net/`` and then press Enter.
+      ```
+      https://app-shopping-copilot-paxnsqg.azurewebsites.net/
+      ```
       ![Contosoterms.1.png](media/Contosoterms.1.png)
 
 24. Click on the **terms and conditions checkbox** and then click on the **Login** button.
