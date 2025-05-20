@@ -102,7 +102,15 @@ This created a unified, searchable knowledge base.
 
 Let's step into Data Engineer, Eva's shoes to see how.
 
-1. In a new tab of your VM browser enter the URL **<inject key= "projectWorkspaceUrl" enableCopy="true"/>**  and press **Enter** key.
+1. In a new tab of your VM browser enter the URL ``portal.azure.com``  and press **Enter** key.
+
+2. Search for **prj-build-<inject key= "DeploymentID" enableCopy="false"/>**, and select **prj-build-<inject key= "DeploymentID" enableCopy="false"/>** service from the results.
+
+   ![st04.png](media/prj.png)
+    
+3. Click on the **Studio web URL**.
+
+   ![st04.png](media/std.png)
 
    >**Note:** Close any pop-up that appears on the screen throught the lab.
 
@@ -188,82 +196,29 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
    >**Note:** If clicking on the Upload button doesn't redirect you to the Prompt Flow screen, click the Upload button again. If it still doesn't work, refresh the page and try uploading again.
 
-8. Click on the **Start compute session** button.
+8. Once the prompt flow is uploaded, you'll see a **graph** view with connected nodes representing each step in the flow.
 
-   >**Note:** It will take approximately **5-6 minutes** to start the compute session. Please wait for some time.
+   ![st12.png](media/newuu.png)
 
-   >**Note:** If any `session status started: WARNING: pinecone 6.0.2 does not provide the extra async` appears please ignore and continue.
-
-   ![35_1.png](media/35_1.png)
-
-9. Scroll down to the **lookup** node in the Prompt flow graph and click on it.
-
-10. Click on the edit icon (shaped like a pencil) to modify the value for **mlindex_content** as shown in the below screenshot.
-
-      >**Note:** If you're unable to click the **edit** icon, try refreshing the Azure AI Foundry browser page and try again.
-
-      ![st13.png](media/st13.png)
-
-11. Click on the **acs_index_connection** dropdown and select the **<inject key= "Search_service" enableCopy="true"/>**.
-
-12. Click on the **acs_index_name** dropdown and select the **onelake-index**.
-
-13. Click on the **embedding_type** dropdown and select the **Azure OpenAI**.
-
-14. Click on the **aoai_embedding_connection** dropdown and select the **<inject key= "azure_open_ai" enableCopy="true"/>**.
-
-15. Click on the **Save** button.
-
-      ![st14.png](media/st14.png)
-
-16. In the **lookup** node, set **query_type** to **Keyword**.
-
-      ![st15.png](media/st15.png)
-
-17. Click on **prompt_for_looks** in the Graph, click on the **Connection** dropdown and then select **<inject key= "azure_open_ai" enableCopy="true"/>**.
-
-18. In the **Deployment_name** dropdown, select **gtp-4o**.
-
-      ![st16.png](media/st16.png)
-
-19. Click on the **Chat** button.
-
-      ![prj-nv10.png](media/prj-nv10.png)
-
-20. Click **+ icon** to start a new session and replace the default **prompt** and paste the **prompt** given below in chat box.
-
-      ```
-      Can you show me some Indian dresses for a wedding in Udaipur?
-      ```
-21. Click on the **send** icon.
-
-      ![prj-nv11new.png](media/prj-nv11.png)
-
-22. Observe the **response**.
-
-      ![39_1.png](media/39_1.png)
-
-Once the Prompt flow is deployed as an endpoint, It can be consumed in the webapplication. Let's see how the response look like in the webapp.
- 
-23. Open a new tab, click on browser address bar, and copy paste the following web app link ``https://app-shopping-copilot-paxnsqg.azurewebsites.net/`` and then press Enter.
+9. Open a new tab, click on browser address bar, and copy paste the following web app link ``https://app-shopping-copilot-paxnsqg.azurewebsites.net/`` and then press Enter.
       ```
       https://app-shopping-copilot-paxnsqg.azurewebsites.net/
       ```
       ![Contosoterms.1.png](media/Contosoterms.1.png)
 
-24. Click on the **terms and conditions checkbox** and then click on the **Login** button.
+10. Click on the **terms and conditions checkbox** and then click on the **Login** button.
 
       ![Contosoterms.png](media/Contosoterms.png)
  
-25. Click on the **Copilot icon** at the bottom right of the page.
+11. Click on the **Copilot icon** at the bottom right of the page.
  
       ![Copiloticonwebapp.png](media/Copiloticonwebapp.png)
 
-26. Click on any of the **pre-populated questions**.
+12. Click on any of the **pre-populated questions**.
  
       ![question1webapp.png](media/question1webapp.png)
  
-27. Observe the **response**.
+13. Observe the **response**.
   
       ![Answer1webapp.png](media/Answer1webapp.png)
  
