@@ -9,9 +9,9 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 
 1. Open **Microsoft Fabric** in a new tab by copy pasting the below link.
 
-   ```BASH
-   https://app.fabric.microsoft.com/home
-   ```
+    ```BASH
+    https://app.fabric.microsoft.com/home
+    ```
 
 2. Sign in with your Azure AD credentials. If you are not already signed in, you will be redirected to the Microsoft Fabric login page.
 
