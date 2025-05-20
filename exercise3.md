@@ -81,36 +81,12 @@ Let's step into the shoes of Eva, the Data Engineer, as she launches Azure AI St
 
       ![th11.png](media/th11.png)
 
-16. For the fields listed, configure the following: (as shown in the next step)
-
-   - **productId**: Enable **Searchable**.
-
-   - **product**: Enable **Retrievable**, **Filterable** and **Searchable**.
-
-   - **imageUrl** : Enable **Retrievable**.
-
-   - **Price** : Enable **Retrievable** and **Sortable**.
-
-   - **gender**: Enable **Retrievable**, **Filterable** and **Searchable**.
-
-   - **MasterCategory**: Enable **Searchable**.
-
-   - **subCategory**: Enable **Searchable**.
-
-   - **color**: Enable **Retrievable**, **Filterable** and **Searchable**.
-
-   - **Description** : Enable **Retrievable** and **Searchable**.
-
-   - **caption**: Enable **Searchable***.
-
-   - **Vector_embedding**: Enable **Retrievable**.
-
-   - **AzureSearch_DocumentKey**: Enable **Retrievable**.
+16. Ensure all fields have **Retrievable**, **Filterable**, **Sortable**, **Facetable**, and **Searchable** options checked as shown in the screenshot.
 
 
 17. Once the field settings are configured, click on **Next: Create an indexer** to proceed.
 
-      ![st05.png](media/st05.png)
+      ![st05.png](media/createindexer.png)
 
 18. Enter the name of the indexer as **onelake-indexer** and click on the **Submit** button.
 
