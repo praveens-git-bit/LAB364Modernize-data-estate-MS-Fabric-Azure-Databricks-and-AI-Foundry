@@ -39,7 +39,7 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
     ![task-2.2.5new.png](media/f14.png)
 
-    >**Note**: The pipeline will take 5-7 minutes to complete. In the meantime, you can move on to the next section and return to this one afterward.
+    >**Note**: **The pipeline will take 5-7 minutes to complete. In the meantime, you can move on to the next section and return to this one afterward**.
 
 8. Once the execution is completed, we will see a result similar to the one in the following screenshot.
 
