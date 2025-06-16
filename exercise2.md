@@ -8,9 +8,9 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
 1. Please use the following link to navigate to the Azure Databricks workspace **<inject key= "livedatabricksWorkspaceUrl" enableCopy="true"/>**
 
-2. On the Databricks sign-in page, click on **Sign in with Microsoft Entra ID** to proceed.
+2. On the Databricks sign-in page, click on **Continue with Microsoft Entra ID** to proceed.
 
-    ![task-2.2.2new.png](media/1ds.png)
+    ![task-2.2.2new.png](media/E2I1.png)
 
 2. Scroll down in the left navigation pane and click on **Pipelines**.
 
