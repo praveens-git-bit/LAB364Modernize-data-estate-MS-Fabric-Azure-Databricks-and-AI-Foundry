@@ -132,9 +132,9 @@ Let's step into Data Engineer, Eva's shoes to see how.
 
    ![ai_4.png](media/ai_4.png)
 
-5. You will find an Azure OpenAI resource with gpt-4,gpt-4o and text-embedding-ada-002 model deployment. Create a connection by clicking on the **Add connection** button.
+5. You will find an Azure OpenAI resource with gpt-4o and text-embedding-ada-002 model deployment. Create a connection by clicking on the **Add connection** button.
 
-   ![st07.png](media/deopenai.png)
+   ![st07.png](media/E31.png)
 
 6. Once the **OpenAI services are connected**, click on **Back to select an asset type**.
 
