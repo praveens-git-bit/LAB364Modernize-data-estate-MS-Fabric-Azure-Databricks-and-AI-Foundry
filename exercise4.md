@@ -77,6 +77,8 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     ![task-new6.5 - Copy.png](media/task-new6.5.png)
 
+> Note:If the option to enable Copilot Purview, as described in the previous step, is not available, please skip it and continue with the next step.
+
 You will now see how easy it is for the data analyst to create compelling Power BI reports and get deep insights with literally no hands-on coding!
 	
 17. Click on the **Prompt Guide** button.
