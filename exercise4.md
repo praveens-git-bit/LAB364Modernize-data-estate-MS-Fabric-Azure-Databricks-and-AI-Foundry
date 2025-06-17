@@ -51,7 +51,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     >**Note :** If Turn on Q&A to ask natural language questions about your data checkbox is enabled already,continue with the next step.
 
-11. Select the ellipsis (three dots) next to the **website_bounce_rate semantic** model.
+11. Navigate back to workspace and Select the ellipsis (three dots) next to the **website_bounce_rate semantic** model.
 
     ![st20.png](media/st20.png)
 
@@ -75,9 +75,8 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 14. Click on **Preview button** to the right side to enable it and click on **Get started**.
 
-    ![task-new6.5 - Copy.png](media/task-new6.5.png)
+    ![task-new6.5 - Copy.png](media/l2.png)
 
-> Note:If the option to enable Copilot Purview, as described in the previous step, is not available, please skip it and continue with the next step.
 
 You will now see how easy it is for the data analyst to create compelling Power BI reports and get deep insights with literally no hands-on coding!
 	
