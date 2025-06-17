@@ -76,11 +76,11 @@ Exercise 3: Building an AI-Powered Chatbot with Microsoft Fabric and Azure AI St
  - Task 3.2: Establish Azure OpenAI, Azure AI Content Safety, and AI Search Connections in Azure AI Studio
  - Task 3.3: Setup and use Prompt Flow in Azure AI Studio
 
-Exercise 4: Power BI Experience in Fabric
+**Optional exercises**
+
+Exercise 4: Power BI Experience in Fabric (Optional)
  
  - Task 4.1: Create a Semantic model and generate insights using Copilot for Power BI
-
-**Optional exercises**
 
 Exercise 5: Explorer Data Science experience in Microsoft Fabric
  
