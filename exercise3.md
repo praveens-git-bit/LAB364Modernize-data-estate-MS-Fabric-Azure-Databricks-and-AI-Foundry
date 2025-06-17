@@ -199,8 +199,11 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
    ![st12.png](media/newuu.png)
 
-9. Open a new tab, click on browser address bar, and copy paste the following web app link **<inject key= "shoppingWebAppUrl" enableCopy="true"/>** and then press Enter.
-    
+9. Open a new tab, click on browser address bar, and copy paste the following web app link ``https://app-shopping-copilot-d1hz4ew.azurewebsites.net/`` and then press Enter.
+
+    ```
+    https://app-shopping-copilot-d1hz4ew.azurewebsites.net/
+    ```
       ![Contosoterms.1.png](media/Contosoterms.1.png)
 
 10. Click on the **terms and conditions checkbox** and then click on the **Login** button.
