@@ -104,7 +104,7 @@ With the data prepared with the help of Copilot, Data Scientists like you can ex
 The rest of the notebook has similar PySpark queries to explore customer churn prediction.
 
 ---
-
+<!--
 ### Task 5.2: Leverage Data agent
 Data agent, a new capability in Fabric, allows Data Analysts like Serena to create their own generative AI experiences. Serena believes that generative AI offers a transformative way to interact with data, significantly boosting data-driven decision-making in organizations worldwide. 
 
@@ -223,6 +223,8 @@ In addition to instructions, examples serve as another effective way to guide th
 
 
 ---
+-->
+
 
 Congratulations! You, as Data Engineers and Data Analysts have helped Contoso gain actionable insights from its disparate data sources, thereby contributing to future growth, customer satisfaction, and a competitive advantage.
 
