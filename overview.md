@@ -85,4 +85,4 @@ Exercise 4: Power BI Experience in Fabric (Optional)
 Exercise 5: Explorer Data Science experience in Microsoft Fabric
  
  - Task 5.1: Build ML models and experiments using Copilot in Fabric  
- - Task 5.2: Leverage Data agent
+
