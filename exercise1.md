@@ -123,7 +123,7 @@ Now, let's see how Data Engineer, Eva, got the remaining data into OneLake by cr
 
     ![64.2-Copy.png](media/64.2.png)
 
-2. In the **New Item** tab, search for the **Notebook** and select **Notebook**.
+2. In the **New Item** tab, search for **Notebook**, select it, and wait a few seconds for the notebook to be created.
 
     ![bl6.png](media/bl6.png)
 

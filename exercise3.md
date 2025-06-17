@@ -102,9 +102,8 @@ This created a unified, searchable knowledge base.
 
 Let's step into Data Engineer, Eva's shoes to see how.
 
-1. In a new tab of your VM browser enter the URL ``portal.azure.com``  and press **Enter** key.
 
-2. Search for **prj-build-<inject key= "DeploymentID" enableCopy="false"/>**, and select **prj-build-<inject key= "DeploymentID" enableCopy="false"/>** service from the results.
+1. In Azure portal Search for the **prj-build-<inject key= "DeploymentID" enableCopy="false"/>**, and select **prj-build-<inject key= "DeploymentID" enableCopy="false"/>** service from the results.
 
    ![st04.png](media/prj.png)
     
