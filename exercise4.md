@@ -73,7 +73,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     ![coplitclose.png](media/coplitclose.png)
 
-14. Click on **Preview button** to the right side to enable it and click on **Get started**.
+14. Click on **Get started**.
 
     ![task-new6.5 - Copy.png](media/l2.png)
 
