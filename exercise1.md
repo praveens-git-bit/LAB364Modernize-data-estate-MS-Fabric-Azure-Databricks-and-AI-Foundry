@@ -139,7 +139,30 @@ Now, let's see how Data Engineer, Eva, got the remaining data into OneLake by cr
 
     ![bl9.png](media/bl9.png)
 
-5. Once the notebook is created, paste the **below code** in the existing cell and run the cell by clicking on the **Run cell** icon.
+5. Let's run the following cell which will import the necessary libraries and spark configurations.
+
+    ```
+    spark.conf.set("sprk.sql.parquet.vorder.enabled", "true")
+    spark.conf.set("spark.microsoft.delta.optimizeWrite.enabled", "true")
+    spark.conf.set("spark.microsoft.delta.optimizeWrite.binSize", "1073741824")
+    from pyspark.sql.types import *
+    from pyspark.sql.functions import col, unix_timestamp, to_date,col,year,quarter,month,to_timestamp
+    from pyspark.sql.types import DateType
+    from pyspark.sql.functions import col, unix_timestamp, to_date,col,year,quarter,month
+    from pyspark.sql.functions import col
+    from pyspark.sql.types import IntegerType
+    from pyspark.sql.types import DoubleType
+    from pyspark.sql.types import DateType
+    from pyspark.sql import functions as F
+    from pyspark.sql.functions import regexp_replace
+    
+    from pyspark.sql import SparkSession
+
+    ```
+
+    ![bl8.png](media/l3.png)
+
+6. Paste the **below code** in the existing cell and run the cell by clicking on the **Run cell** icon.
 
     ```
     # Spark path to the folder in Lakehouse
@@ -175,21 +198,41 @@ Now, let's see how Data Engineer, Eva, got the remaining data into OneLake by cr
 
     ![64.8.png](media/64.8.png)
 
-6. Once the execution is successful, you'll see a **green tick** at bottom of the cell. Now, click on **Stop** icon in the ribbon at the top to **stop the Spark session**, then click on **Lakehouse**.
+7. Now execute the following cell to update the schema and modify the data types.
+
+    ```
+    spark = SparkSession.builder.getOrCreate()
+    
+    table_name = "dbo.website_bounce_rate"
+    
+    df = spark.read.table(table_name)
+    
+    df = df.withColumn("total_number_of_time_products_searches", col("total_number_of_time_products_searches").cast(IntegerType()))
+    df = df.withColumn("Website_Bounce_rate", col("Website_Bounce_rate").cast(FloatType()))
+    df = df.withColumn("Website_visitors", col("Website_visitors").cast(IntegerType()))
+    
+    
+    df.write.mode("overwrite").option("overwriteSchema","true").saveAsTable("dbo.website_bounce_rate")  
+
+    ```
+
+    ![bl8.png](media/l5.png)
+
+8. Once the execution is successful, you'll see a **green tick** at bottom of the cell. Now, click on **Stop** icon in the ribbon at the top to **stop the Spark session**, then click on **Lakehouse**.
 
     ![64.9.png](media/64.9.png)
 
-7. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
+9. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
 
     ![64.10.1.png](media/64.10.1.png)
 
-8. View the successfully **loaded tables**.
+10. View the successfully **loaded tables**.
 
     ![bl10.png](media/bl10.png)
 
-9. Click on **website_bounce_rate** delta table and view the website bounce rate data.
+11. Click on **website_bounce_rate** delta table and view the website bounce rate data.
 
     ![64.11.png](media/64.11.png)
 
-10. You now have all the tables in **OneLake** for Contoso to leverage.
+12. You now have all the tables in **OneLake** for Contoso to leverage.
 
